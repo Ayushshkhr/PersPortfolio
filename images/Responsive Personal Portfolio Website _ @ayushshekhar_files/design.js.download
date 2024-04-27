@@ -44,17 +44,7 @@ ScrollReveal({
     delay: 200,
 });
 
-
-ScrollReveal().reveal('.Services-container', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .Services-container, .Portfolio-box, .Contact-form', { origin: 'bottom' });
+ScrollReveal().reveal('.Home-content, heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .Services-container, .Portfolio-box, .Contact form', { origin: 'bottom' });
 ScrollReveal().reveal('.Home-contact h1, .About-img', { origin: 'left' });
 ScrollReveal().reveal('.Home-contact p, .About-content', { origin: 'right' });
-
-/*=============================== typed js ================================*/
-const typed = new Typed('.multiple-text', {
-    strings: ['Front-End Devloper', 'Web-Designer', 'Video-Editor'],
-    typeSpeed: 60,
-    backSpeed: 60,
-    backDelay: 1000,
-    loop: true, 
-});
